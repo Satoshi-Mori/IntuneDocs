@@ -70,7 +70,7 @@ This article describes these settings.
       > [!IMPORTANT]
       > The PSK is the same for all devices you target the profile to. If the key is compromised, it can be used by any device to connect to the Wi-Fi network. Keep your PSKs secure to avoid unauthorized access.
 
-- **Company Proxy settings**: Choose to use the proxy settings within your organization. Your options:
+- **Company Proxy settings**: Choose to use the proxy settings within your organization. Your options: This proxy configuration is only supported in Windows 10 Mobile
   - **None**: No proxy settings are configured.
   - **Manually configure**: Enter the **Proxy server IPaddress** and its **Port number**.
   - **Automatically configure**: Enter the URL pointing to a proxy autoconfiguration (PAC) script. For example, enter `http://proxy.contoso.com/proxy.pac`.
@@ -150,7 +150,7 @@ Select **OK** > **Create** to save your changes. The profile is created and is s
 
       **Identity privacy (outer identity)**: Use with **EAP-TTLS** EAP type. Enter the text sent in response to an EAP identity request. This text can be any value. During authentication, this anonymous identity is initially sent, and then followed by the real identification sent in a secure tunnel.
 
-- **Company Proxy settings**: Choose to use the proxy settings within your organization. Your options:
+- **Company Proxy settings**: Choose to use the proxy settings within your organization. Your options: This proxy configuration is only supported in Windows 10 Mobile
   - **None**: No proxy settings are configured.
   - **Manually configure**: Enter the **Proxy server IPaddress** and its **Port number**.
   - **Automatically configure**: Enter the URL pointing to a proxy auto-configuration (PAC) script. For example, enter `http://proxy.contoso.com/proxy.pac`.
